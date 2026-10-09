@@ -728,6 +728,7 @@ bool shafted_in(branch_type branch)
  */
 static bool _is_valid_shaft_effect_level()
 {
+    return false;
     const level_id place = level_id::current();
     const Branch &branch = branches[place.branch];
 
